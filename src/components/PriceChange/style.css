@@ -1,0 +1,33 @@
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #04306b;
+  border: 1px solid #1e2136;
+  border-radius: 2px;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.price-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.price-item .up {
+  color: #0ecc83;
+}
+
+.price-item .down {
+  color: #fa3c58;
+}
+
+.price-item .label {
+  opacity: 0.7;
+}
